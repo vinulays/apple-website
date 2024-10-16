@@ -102,6 +102,7 @@ const VideoCarousel = () => {
         gsap.ticker.remove(animUpdate);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [videoId, startPlay]);
 
   useEffect(() => {
